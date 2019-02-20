@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('/assets/CalibreWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Calibre-Medium';
+  src: url('/assets/CalibreWeb-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Calibre-Semibold';
+  src: url('/assets/CalibreWeb-Semibold.woff') format('woff');
+}
+
+body {
+  background-color: #f1f1f2;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#header {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+}
+
+#content {
+  padding-top: 78px;
+}
+
+#content-body {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+#details {
+  width: 66%;
+}
+
+#maps {
+  margin-top: 40px;
+}
