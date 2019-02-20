@@ -31,6 +31,19 @@ body {
 }
 
 #content-body {
-  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
+}
+
+#details {
+  width: 66%;
+}
+
+#maps {
+  margin-top: 40px;
 }
