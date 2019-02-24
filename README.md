@@ -1,38 +1,14 @@
-# Project Name
+# Hungry Hungry Hippos
 
-> Project description
+## Related Repos
 
-## Related Projects
+  - [Component: Overview Photos & Footer](https://github.com/hungry-hungry-hippos/service_TD)
+  - [Component: Restaurant Details](https://github.com/hungry-hungry-hippos/service-KC)
+  - [Proxy Server](https://github.com/hungry-hungry-hippos/proxy-KC)
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
 
 ## Usage
 
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
+- To start the server and corresponding database, use `docker-compose up -d`
+  - This command will automatically launch the necessary docker containers and seed the database
+- To start the server manually, use `npm start`
